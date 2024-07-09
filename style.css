@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+@font-face {
+    font-family: cool;
+    src: url(font/vtks\ university.ttf);
+}
+
+@font-face {
+    font-family: ope;
+    src: url(font/MAENGAME\ REGULAR.ttf);
+}
+
+@font-face {
+    font-family: beeb;
+    src: url(font/RACESPACESTRIPE.otf);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background-color: yellow;
+}
+
+
+.heading{
+    border: 3px solid blue;
+    padding: 1.5rem;
+    text-align: center;
+    font-family: beeb;
+    font-size: 1rem ;
+    /* color: blue; */
+}
+
+.game-sector{
+    border: 2px solid blue;
+    padding: 0.3rem;
+    justify-content: center;
+    display: flex;
+}
+
+.guessed-Num{
+    width: 15rem ;
+    height: 1.5rem;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+
+
+.submit{
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-weight: 900;
+    margin-left: 1rem;
+    padding: 2px;    
+    background-color: rgb(77, 77, 189);
+    height: 1.5rem;
+}
+
+.result-sector{
+    background-color: yellowgreen;
+    padding: 1rem;
+}
+
+.result-sector h1{
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+    /* font-family: ope; */
+}
+
+.attempt{
+    text-align: center;
+}
+
+.reward{
+    text-align: center;
+    color: red;
+    /* background-color: red; */
+}
+
+
+
+
+
+
+
+
